@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form label fieldset legend radio checkbox textarea reset submit</title>
+    <link rel="shortcut icon" href="images/html-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+
+<body>
+    <header>
+        <p><b>MEHEDI</b> IT ZONE</p>
+    </header>
+    <main>
+        <h1>Fill The Application Form:</h1>
+        <form>
+            <fieldset class="basic">
+                <label for="name">Your Name:
+                    <input type="text" id="name" placeholder="your name">
+                </label>
+                <label for="email">Your Email:
+                    <input type="email" id="email" placeholder="your email">
+                </label>
+                <label for="phone">Phone Number:
+                    <input type="text" id="phone" placeholder="your phone">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Select Your Gender:</legend>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <br>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+                <br>
+                <input type="radio" name="gender" id="third">
+                <label for="third">Third</label>
+            </fieldset>
+            <fieldset>
+                <legend>Favorite Games:</legend>
+                <input type="checkbox" name="game" id="cricket">
+                <label for="cricket">Cricket</label>
+                <br>
+                <input type="checkbox" name="game" id="football">
+                <label for="football">Football</label>
+                <br>
+                <input type="checkbox" name="game" id="hocky">
+                <label for="hocky">Hocky</label>
+                <br>
+                <input type="checkbox" name="game" id="basketball">
+                <label for="basketball">Basketball</label>
+            </fieldset>
+            <fieldset>
+                <legend>Say Something About Your Self:</legend>
+                <textarea name="Information" id="infor" rows="4" cols="50"></textarea>
+            </fieldset>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <small>&COPY;All Reserved By @Mehedi,2020</small>
+    </footer>
+</body>
+
+</html>
