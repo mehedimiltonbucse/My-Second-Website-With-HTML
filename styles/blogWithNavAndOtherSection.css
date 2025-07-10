@@ -1,0 +1,42 @@
+#header {
+  font-size: 30px;
+  text-align: center;
+}
+nav > ul > li {
+  display: inline;
+}
+ul > li > a {
+  text-decoration: none;
+  margin: 20px;
+  color: rgb(37, 36, 36);
+  font-size: 16px;
+}
+.main_header {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: 110px;
+}
+.one {
+  background-color: rgb(216, 204, 186);
+  margin: 0 150px;
+  padding: 30px;
+  border-radius: 20px;
+}
+.one > h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+p {
+  text-align: justify;
+}
+.two {
+  margin: 0 150px;
+}
+figure {
+  margin: 0 150px;
+}
+img {
+  border-radius: 20px;
+}
+a {
+  text-decoration: none;
+}
