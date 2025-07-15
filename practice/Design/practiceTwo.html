@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Two</title>
+    <link rel="shortcut icon" href="../../images/html-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style/practiceTwo.css">
+</head>
+
+<body>
+    <div id="feedBackForm">
+        <h1>Storytelling Contest Feedback</h1>
+        <label for="name">Your Name (Optional)</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+        <label for="sTitle">Story Title</label>
+        <input type="text" name="title" id="sTitle" placeholder="Title of the story you are submitting">
+        <label for="story">Your Story</label>
+        <textarea name="shareStory" id="story" rows="10" cols="20">Share your amazing story here...</textarea>
+        <label for="rate">Rate the Story
+            <select name="sRate" id="rate">
+                <option value="intro">--Please Select a rating--</option>
+                <option value="one">Excellent</option>
+                <option value="two">Very Good</option>
+                <option value="three">Good</option>
+                <option value="four">Fair</option>
+                <option value="five">Poor</option>
+            </select>
+        </label>
+        <label for="additional">Additional Comments (Option)
+            <textarea name="additionalCmnt" id="additional" rows="5"
+                cols="10">Any other feedback or suggestions? </textarea>
+        </label>
+        <input type="button" value="Submit Feedback">
+    </div>
+</body>
+
+</html>
