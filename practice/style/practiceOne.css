@@ -1,0 +1,17 @@
+.one {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin: 20px 0;
+  padding: 10px 0;
+}
+.one img {
+  margin: 10px;
+}
+/* .two input [typr="text"] {
+} */
+.two input,
+textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
